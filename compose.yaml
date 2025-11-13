@@ -16,7 +16,7 @@ services:
       - DB_NAME=test_db
       - DB_PASSWORD=test_password
     depends_on:
-      db
+      db:
 
   db:
     image: mysql:8
