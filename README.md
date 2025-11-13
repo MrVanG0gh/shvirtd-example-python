@@ -45,7 +45,12 @@ See 'snap info docker' for additional versions.
 
 ![Screen_1_1](https://github.com/MrVanG0gh/shvirtd-example-python/blob/main/Screenshots/Screenshot_1_1.png)
 
+Запустим контейнер, пробросим в него порт 5000 и попробуем выполнить команду
+`curl http://localhost:5000`
 
+![Screen_1_2](https://github.com/MrVanG0gh/shvirtd-example-python/blob/main/Screenshots/Screenshot_1_2.png)
+
+В ответе видим, что программе не удается обратиться к БД (БД еще не настроена и не запущена). Будем считать, что приложение доступно по порту 5000 и реагирует на запросы.
 
 ## Задача 2 (*)
 1. Создайте в yandex cloud container registry с именем "test" с помощью "yc tool" . [Инструкция](https://cloud.yandex.ru/ru/docs/container-registry/quickstart/?from=int-console-help)
