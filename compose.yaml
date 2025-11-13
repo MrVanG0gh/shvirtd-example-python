@@ -12,9 +12,9 @@ services:
     environment:
       - DB_HOST=db
       - DB_TABLE=requests
-      - DB_USER=test_user
-      - DB_NAME=test_db
-      - DB_PASSWORD=test_password
+      - DB_NAME: ${MYSQL_DATABASE}
+      - DB_USER: ${MYSQL_USER}
+      - DB_PASSWORD: ${MYSQL_PASSWORD}
     depends_on:
       - db
 
