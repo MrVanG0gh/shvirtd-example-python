@@ -52,6 +52,12 @@ See 'snap info docker' for additional versions.
 
 В ответе видим, что программе не удается обратиться к БД (БД еще не настроена и не запущена). Будем считать, что приложение доступно по порту 5000 и реагирует на запросы.
 
+Попробуем запустить приложение, зайдя в контейнер:
+
+![Screen_1_3](https://github.com/MrVanG0gh/shvirtd-example-python/blob/main/Screenshots/Screenshot_1_3.png)
+
+---
+
 ## Задача 2 (*)
 1. Создайте в yandex cloud container registry с именем "test" с помощью "yc tool" . [Инструкция](https://cloud.yandex.ru/ru/docs/container-registry/quickstart/?from=int-console-help)
 2. Настройте аутентификацию вашего локального docker в yandex container registry.
