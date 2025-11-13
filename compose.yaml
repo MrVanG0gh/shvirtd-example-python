@@ -1,0 +1,28 @@
+include:
+  - proxy.yaml
+
+services:
+  web:
+    build:
+      dockerfile: Dockerfile.python
+    restart: on-failure
+    networks:
+      backend:
+        ipv4_address: 170.20.0.5
+    environment:
+      - DB_HOST=db
+      - DB_TABLE=requests
+      - DB_USER=test_user
+      - DB_NAME=test_db
+      - DB_PASSWORD=test_password
+
+  db:
+    image: mysql:8
+    restart: on-failure
+    networks:
+      backend:
+        ipv4_address: 170.20.0.10
+    env_file:
+      - .env
+
+
