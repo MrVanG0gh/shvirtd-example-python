@@ -14,7 +14,7 @@ services:
       - MYSQL_USER=$(MYSQL_USER)
       - MYSQL_PASSWORD=$(MYSQL_PASSWORD)
       - DB_HOST=db
-      - DB_TABLE=requests
+      - DB_TABLE=example
     depends_on:
       - db
 
