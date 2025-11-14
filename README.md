@@ -111,11 +111,9 @@ services:
 
 volumes:
   db_data:
-
 ```
 ![Screen_3_1](https://github.com/MrVanG0gh/shvirtd-example-python/blob/main/Screenshots/Screenshot_3_1.png)
 ![Screen_3_2](https://github.com/MrVanG0gh/shvirtd-example-python/blob/main/Screenshots/Screenshot_3_2.png)
-
 
 ---
 
