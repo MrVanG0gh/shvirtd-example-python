@@ -58,12 +58,7 @@ See 'snap info docker' for additional versions.
 
 ---
 
-## Задача 2 (*)
-1. Создайте в yandex cloud container registry с именем "test" с помощью "yc tool" . [Инструкция](https://cloud.yandex.ru/ru/docs/container-registry/quickstart/?from=int-console-help)
-2. Настройте аутентификацию вашего локального docker в yandex container registry.
-3. Соберите и залейте в него образ с python приложением из задания №1.
-4. Просканируйте образ на уязвимости.
-5. В качестве ответа приложите отчет сканирования.
+
 
 ## Задача 3
 1. Изучите файл "proxy.yaml"
@@ -81,6 +76,8 @@ See 'snap info docker' for additional versions.
 
 6. Остановите проект. В качестве ответа приложите скриншот sql-запроса.
 
+---
+
 ## Задача 4
 1. Запустите в Yandex Cloud ВМ (вам хватит 2 Гб Ram).
 2. Подключитесь к Вм по ssh и установите docker.
@@ -89,24 +86,28 @@ See 'snap info docker' for additional versions.
 5. (Необязательная часть) Дополнительно настройте remote ssh context к вашему серверу. Отобразите список контекстов и результат удаленного выполнения ```docker ps -a```
 6. Повторите SQL-запрос на сервере и приложите скриншот и ссылку на fork.
 
-## Задача 5 (*)
-1. Напишите и задеплойте на вашу облачную ВМ bash скрипт, который произведет резервное копирование БД mysql в директорию "/opt/backup" с помощью запуска в сети "backend" контейнера из образа ```schnitzler/mysqldump``` при помощи ```docker run ...``` команды. Подсказка: "документация образа."
-2. Протестируйте ручной запуск
-3. Настройте выполнение скрипта раз в 1 минуту через cron, crontab или systemctl timer. Придумайте способ не светить логин/пароль в git!!
-4. Предоставьте скрипт, cron-task и скриншот с несколькими резервными копиями в "/opt/backup"
+## Решение 4
+
+---
 
 ## Задача 6
 Скачайте docker образ ```hashicorp/terraform:latest``` и скопируйте бинарный файл ```/bin/terraform``` на свою локальную машину, используя dive и docker save.
 Предоставьте скриншоты  действий .
 
+## Решение 6
+
+![Screen_6_1](https://github.com/MrVanG0gh/shvirtd-example-python/blob/main/Screenshots/Screenshot_6_1.png)
+![Screen_6_2](https://github.com/MrVanG0gh/shvirtd-example-python/blob/main/Screenshots/Screenshot_6_2.png)
+![Screen_6_3](https://github.com/MrVanG0gh/shvirtd-example-python/blob/main/Screenshots/Screenshot_6_3.png)
+
+---
+
 ## Задача 6.1
 Добейтесь аналогичного результата, используя docker cp.  
 Предоставьте скриншоты  действий .
 
-## Задача 6.2 (**)
-Предложите способ извлечь файл из контейнера, используя только команду docker build и любой Dockerfile.  
-Предоставьте скриншоты  действий .
+## Решение 6.1
 
-## Задача 7 (***)
-Запустите ваше python-приложение с помощью runC, не используя docker или containerd.  
-Предоставьте скриншоты  действий .
+![Screen_6_4](https://github.com/MrVanG0gh/shvirtd-example-python/blob/main/Screenshots/Screenshot_6_4.png)
+
+---
