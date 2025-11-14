@@ -2,6 +2,7 @@ include:
   - proxy.yaml
 
 services:
+
   web:
     build:
       dockerfile: Dockerfile.python
@@ -27,12 +28,11 @@ services:
     ports:
       - 3306:3306
     environment:
-     # - MYSQL_ROOT_PASSWORD=$(MYSQL_ROOT_PASSWORD)
-     # - MYSQL_DATABASE=$(MYSQL_DATABASE)
-     # - MYSQL_USER=app
-     # - MYSQL_PASSWORD=$(MYSQL_PASSWORD)
+      - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+      - MYSQL_DATABASE=${MYSQL_DATABASE}
+      - MYSQL_USER=app
+      - MYSQL_PASSWORD=${MYSQL_PASSWORD}
       - MYSQL_ROOT_HOST="%"
-
     env_file:
       - .env
     volumes:
