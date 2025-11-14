@@ -127,7 +127,10 @@ volumes:
 
 ## Решение 4
 
-![Screen_4_1](https://github.com/MrVanG0gh/shvirtd-example-python/blob/main/Screenshots/Screenshot_4_1.png)
+![Screen_4_1_4](https://github.com/MrVanG0gh/shvirtd-example-python/blob/main/Screenshots/Screenshot_4_1_4.png)
+![Screen_4_1_5](https://github.com/MrVanG0gh/shvirtd-example-python/blob/main/Screenshots/Screenshot_4_1_5.png)
+![Screen_4_1_6](https://github.com/MrVanG0gh/shvirtd-example-python/blob/main/Screenshots/Screenshot_4_1_6.png)
+
 ![Screen_4_2](https://github.com/MrVanG0gh/shvirtd-example-python/blob/main/Screenshots/Screenshot_4_2.png)
 ![Screen_4_3](https://github.com/MrVanG0gh/shvirtd-example-python/blob/main/Screenshots/Screenshot_4_3.png)
 
