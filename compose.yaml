@@ -11,7 +11,6 @@ services:
         ipv4_address: 172.20.0.5
     environment:
       DB_HOST: db
-      DB_TABLE: requests
       DB_PORT: 3306
       DB_NAME: ${MYSQL_DATABASE}
       DB_USER: ${MYSQL_USER}
@@ -27,6 +26,12 @@ services:
         ipv4_address: 172.20.0.10
     ports:
       - 3306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: $(MYSQL_ROOT_PASSWORD)
+      MYSQL_DATABASE: $(MYSQL_DATABASE)
+      MYSQL_USER: "app"
+      MYSQL_PASSWORD: $(MYSQL_PASSWORD)
+
     env_file:
       - .env
     volumes:
