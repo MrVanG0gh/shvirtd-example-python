@@ -129,6 +129,14 @@ volumes:
 
 ## Решение 4
 
+![Screen_4_1](https://github.com/MrVanG0gh/shvirtd-example-python/blob/main/Screenshots/Screenshot_4_1.png)
+![Screen_4_2](https://github.com/MrVanG0gh/shvirtd-example-python/blob/main/Screenshots/Screenshot_4_2.png)
+![Screen_4_3](https://github.com/MrVanG0gh/shvirtd-example-python/blob/main/Screenshots/Screenshot_4_3.png)
+
+Ссылка на форк:
+
+`https://github.com/MrVanG0gh/shvirtd-example-python`
+
 ---
 
 ## Задача 6
