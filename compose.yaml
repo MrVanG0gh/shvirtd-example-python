@@ -33,4 +33,4 @@ services:
       - db_data:/var/lib/mysql
 
 volumes:
-  db_mysql:
+  db_data:
